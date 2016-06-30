@@ -40,16 +40,16 @@
  * @see template_process()
  */
 ?>
-<div id="<?php print $block_html_id; ?>" class="<?php print $classes; ?>"<?php print $attributes; ?>>
+<div class="<?php print implode(' ', $classes); ?>"<?php print backdrop_attributes($attributes); ?>>
 
   <?php print render($title_prefix); ?>
-  <?php if (!empty($block->subject)): ?>
-    <h2 <?php print $title_attributes; ?>><?php print $block->subject ?></h2>
+  <?php if (!empty($title)): ?>
+    <h2><?php print $title; ?></h2>
   <?php endif;?>
   <?php print render($title_suffix); ?>
 
-  <div class="content"<?php print $content_attributes; ?>>
-    <?php print $content ?>
+  <div class="content"<?php print backdrop_attributes($content_attributes); ?>>
+    <?php print render($content); ?>
   </div>
   
 </div> <!-- /.block -->
