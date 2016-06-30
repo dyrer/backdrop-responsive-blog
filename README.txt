@@ -1,9 +1,11 @@
 About Responsive Blog
 ====================
-Responsive Blog is a Drupal 7 theme. The theme is not dependent on any 
+Responsive Blog is a Backdrop CMS theme. The theme is not dependent on any 
 core theme. Its very light weight for fast loading with modern look.
+This theme ported from Drupal 7 Responsive Blog theme by www.devsaran.com
+
   Simple and clean design
-  Drupal standards compliant
+  Backdrop standards compliant
   Implementation of a JS Slideshow
   Multi-level drop-down menus
   Footer with 4 regions
@@ -14,17 +16,15 @@ Browser compatibility:
 =====================
 The theme has been tested on following browsers. IE7+, Firefox, Google Chrome, Opera.
 
-Drupal compatibility:
+Backdrop compatibility:
 =====================
-This theme is compatible with Drupal 7.x.x
+This theme is compatible with Backdrop 1.x
 
 Developed by
 ============
-www.devsaran.com
+www.athanasiadis.me
 
 Slideshow photos by http://www.flickr.com/photos/68666702@N00/
 
 Help and Support Us
 =====================
-Please consider a small donation 
-Paypal ID : donation@devsaran.com
