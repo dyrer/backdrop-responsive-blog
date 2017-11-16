@@ -1,5 +1,5 @@
 name = Responsive Blog
-description = Responsive Blog is a premium Drupal 7 theme. Developed by <a href="http://www.devsaran.com">Devsaran.com</a>.
+description = Responsive Blog is a premium Backdrop CMS theme. Developed by <a href="http://www.backdroper.com">Backdroper</a>.
 backdrop = 1.x
 
 type = theme
@@ -30,4 +30,3 @@ settings[pinterest_url]  = "http://pinterest.com"
 settings[slide1_url]  = "node/1"
 settings[slide2_url]  = "node/2"
 settings[slide3_url]  = "node/3"
-
